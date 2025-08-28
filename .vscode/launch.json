@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Comments",
+            "request": "launch",
+            "mainClass": "Comments",
+            "projectName": "codes_83f8e113"
+        },
+        {
+            "type": "java",
             "name": "FirstDialog",
             "request": "launch",
             "mainClass": "FirstDialog",
