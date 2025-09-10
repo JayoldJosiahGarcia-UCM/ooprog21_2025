@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UsingJOptionPaneDialogs",
+            "request": "launch",
+            "mainClass": "UsingJOptionPaneDialogs",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
             "name": "Comments",
             "request": "launch",
             "mainClass": "Comments",

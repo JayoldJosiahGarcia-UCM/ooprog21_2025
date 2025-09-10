@@ -15,7 +15,7 @@ public class UsingJOptionPaneDialogs{
                                                           JOptionPane.YES_NO_OPTION);
         } while (confirmation == 1);
 
-        JOptionPane.showMessageDialog(null,"Hi there "+userName+"!");
+        JOptionPane.showMessageDialog(null,"Hello, "+userName+"!");
 
     }
 }
