@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DebugThree1",
+            "request": "launch",
+            "mainClass": "DebugThree1",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "DemoGrossPay",
+            "request": "launch",
+            "mainClass": "DemoGrossPay",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "CompanyInfo",
+            "request": "launch",
+            "mainClass": "CompanyInfo",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "GrossPayProgram",
+            "request": "launch",
+            "mainClass": "GrossPayProgram",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "DPWHBudgetAllocationProgram",
+            "request": "launch",
+            "mainClass": "DPWHBudgetAllocationProgram",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
             "name": "UsingJOptionPaneDialogs",
             "request": "launch",
             "mainClass": "UsingJOptionPaneDialogs",
