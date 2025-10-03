@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DebugFive1",
+            "request": "launch",
+            "mainClass": "Chapter_5.DebugFive1",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "EntryForm",
+            "request": "launch",
+            "mainClass": "EntryForm",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "OvertimeGrossPay",
+            "request": "launch",
+            "mainClass": "OvertimeGrossPay",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "PracticeGrossPay",
+            "request": "launch",
+            "mainClass": "PracticeGrossPay",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
             "name": "DebugThree1",
             "request": "launch",
             "mainClass": "DebugThree1",
