@@ -9,10 +9,10 @@ int num;
 int num2;
 Scanner input = new Scanner(System.in);
 System.out.print("Enter a number ");
-num = input.nextInt;
+num = input.nextInt();    //fixed nextInt to nextInt();
 System.out.print("Enter another number ");
-num2 = input.nextInt;
-if((num % num2 == 0) && (num2 / num) == 0)
+num2 = input.nextInt();    //fixed nextInt to nextInt();
+if((num % num2 == 0) && (num2 % num) == 0) //changed / to %
 {
 System.out.println("One of these numbers is");
 System.out.println(" evenly divisible into the other");

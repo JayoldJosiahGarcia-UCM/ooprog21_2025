@@ -1,9 +1,10 @@
+
 // DebugFive1
 // Adds your lunch bill
 // Burger and hot dog are $2.59
 // Fries are 89 cents
 import java.util.*;
-public class DebugFive1
+ class DebugFive1
 {
     public static void main(String args[])
     {

@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DebugFive4",
+            "request": "launch",
+            "mainClass": "Chapter_5.DebugFive4",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "DebugFive3",
+            "request": "launch",
+            "mainClass": "DebugFive3",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "DebugFive4",
+            "request": "launch",
+            "mainClass": "DebugFive4",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "DebugFive2",
+            "request": "launch",
+            "mainClass": "DebugFive2",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "DebugFive1",
+            "request": "launch",
+            "mainClass": "DebugFive1",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
             "name": "DebugFive1",
             "request": "launch",
             "mainClass": "Chapter_5.DebugFive1",

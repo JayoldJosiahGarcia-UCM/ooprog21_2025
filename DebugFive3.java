@@ -17,16 +17,21 @@ final int CUTOFF = 500;
 Scanner input = new Scanner(System.in);
 System.out.print("Please enter item number >> ");
 item = input.nextInt();
-if(item > LOW)
+if(item < LOW){ //fixed operation > to < adn added open and close curly braces
 output = "Item number too low";
+}
 else
-if(item >= HIGHH)
+if(item > HIGH){ //fixed by removing equal sign and the extra H from the HIGH variable and also added curly braces
 output = "Item number too high";
+}
 else
-if(item == CUTOFF)
+if(item < CUTOFF){ //fixed by changing == to < and addded curly braces
 output = "Valid - Item in Automotive Department";
-else
+}
+else{              //added curly braces
 output = "Valid - Item in Housewares Department";
+}
 System.out.println(output);
+
 }
 }
