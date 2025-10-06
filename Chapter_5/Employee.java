@@ -34,7 +34,12 @@ public class Employee {
     }
 
     public double calculateRegularPay(){
-        return hoursWorked * payRate;
+        if(hoursWorked < 40){
+            return hoursWorked * payRate;
+        }
+        else{
+            return 40 * payRate;
+        }
     }
 
     public double calculateOvertimePay(){
