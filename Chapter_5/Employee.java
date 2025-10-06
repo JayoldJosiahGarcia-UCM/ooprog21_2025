@@ -1,4 +1,4 @@
-public class Employees {
+public class Employee {
     
     public static final int MaxEmpolyeeNumber = 9999;
     public static final double MaxRate = 60.00;
@@ -8,7 +8,7 @@ public class Employees {
     private double payRate;
     private double overTimeHours;
 
-    public Employees(double hours, double rate){
+    public Employee(double hours, double rate){
         if(hours < 0){
             throw new IllegalArgumentException("Hours worked cannot be negative.");
         }

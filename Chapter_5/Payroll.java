@@ -11,7 +11,7 @@ class Payroll {
         System.out.println("What is your regular pay rate?");
         double rate = input.nextDouble();
 
-        Employees emp = new Employees(hours, rate);
+        Employee emp = new Employee(hours, rate);
 
         System.out.println("Regular Pay is " + emp.calculateRegularPay());
         System.out.println("Overtime Pay is " + emp.calculateOvertimePay());
