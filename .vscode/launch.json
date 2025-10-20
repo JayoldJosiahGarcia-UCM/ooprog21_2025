@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DisplayBankBalance",
+            "request": "launch",
+            "mainClass": "DisplayBankBalance",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "DisplayBankBalance",
+            "request": "launch",
+            "mainClass": "Chapter_6.DisplayBankBalance",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "StudentRecord",
+            "request": "launch",
+            "mainClass": "StudentRecord",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
             "name": "Payroll",
             "request": "launch",
             "mainClass": "Payroll",
