@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BankBalance2public",
+            "request": "launch",
+            "mainClass": "BankBalance2public",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "DebugSix1",
+            "request": "launch",
+            "mainClass": "DebugSix1",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "TradingProfitCalculator",
+            "request": "launch",
+            "mainClass": "TradingProfitCalculator",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
             "name": "BankBalance",
             "request": "launch",
             "mainClass": "BankBalance",
