@@ -38,10 +38,15 @@ class  TradingProfitCalculator {
             break;
            
         }
-            System.out.print("Do you want to compute again? 1 for yes, 2 for no>>");
+            System.out.print("Do you want to compute again? 1 for yes, 2 for no>, 3 for convert dollars to Php >> ");
             int choice2 = input.nextInt();
             if(choice2 == 2){
                 tracker = false;
+            }
+            else if(choice2 == 3){
+            double php = dollarToPhp(currentUSDT);
+            System.out.println("The equivalent of your USDT in Php is " + php);
+                tracker = true;
             }
             else{
                 tracker = true;
@@ -99,6 +104,11 @@ class  TradingProfitCalculator {
             }
         }
         return(updatedUSDT);
+    }
+    public static Double dollarToPhp(double currentUSDT){
+        double php;
+        php = currentUSDT * 56.18;
+        return(php);
     }
 }
 

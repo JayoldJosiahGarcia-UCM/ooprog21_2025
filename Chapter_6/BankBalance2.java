@@ -12,6 +12,7 @@ class BankBalance2public  {
 
         do{
         balance += balance * interestRate;
+
         System.out.printf("After year "+ year +" at 0.03    interest rate, balance is "+ balance + "\n");
         System.out.println();
         System.out.println("Do you want to see the balance at the end of another year?");
