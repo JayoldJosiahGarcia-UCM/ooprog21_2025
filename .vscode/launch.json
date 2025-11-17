@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AverageCounter",
+            "request": "launch",
+            "mainClass": "AverageCounter",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
+            "name": "TabExample",
+            "request": "launch",
+            "mainClass": "TabExample",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
             "name": "CharacterInfo",
             "request": "launch",
             "mainClass": "CharacterInfo",
