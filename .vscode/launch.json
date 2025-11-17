@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DebugSeven1",
+            "request": "launch",
+            "mainClass": "DebugSeven1",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
             "name": "AverageCounter",
             "request": "launch",
             "mainClass": "AverageCounter",
