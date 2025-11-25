@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CompareString",
+            "request": "launch",
+            "mainClass": "CompareString",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
             "name": "DebugSeven2",
             "request": "launch",
             "mainClass": "DebugSeven2",
