@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class CompareString {
+class CompareStrings {
     public static void main(String[] args) {
         String name = "Carmen";
         String inputName;
