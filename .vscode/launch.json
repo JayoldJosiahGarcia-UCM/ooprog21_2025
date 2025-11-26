@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringBuilderDemo",
+            "request": "launch",
+            "mainClass": "StringBuilderDemo",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
             "name": "CompareStrings",
             "request": "launch",
             "mainClass": "CompareStrings",
