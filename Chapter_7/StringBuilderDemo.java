@@ -9,7 +9,7 @@ class StringBuilderDemo {
         System.out.println("Capacity of addrressString is: " + addrressString.capacity());
         nameString.setLength(20);
         addrressString.setLength(20);
-        System.out.println("(Length set to "+ nameString.capacity() +" for StringBuilder 1) The name is " + nameString);
-        System.out.println("(Length set to "+ nameString.capacity() +" for StringBuilder 2) The address is " + addrressString);
+        System.out.println("(Length set to "+ nameString.length() +" for StringBuilder 1) The name is " + nameString);
+        System.out.println("(Length set to "+ nameString.length() +" for StringBuilder 2) The address is " + addrressString);
     }
 }
