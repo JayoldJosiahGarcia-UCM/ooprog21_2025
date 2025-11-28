@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArraysDemo",
+            "request": "launch",
+            "mainClass": "ArraysDemo",
+            "projectName": "ooprog21_2025_581a306c"
+        },
+        {
+            "type": "java",
             "name": "StringBuilderDemo",
             "request": "launch",
             "mainClass": "StringBuilderDemo",
